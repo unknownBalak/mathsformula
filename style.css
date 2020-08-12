@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 1000px;
+    margin: auto;
+}
+a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.int{
+    display: inline-block;
+    margin: -4% 0.6% 4% -1%;
+    transform: translateX(20%) translateY(35%);
+}
+.int .to {
+    text-align:center;
+    width:2em;
+    font: 0.8em Verdana;
+    margin: 0 0 -5px 8px;
+}
+.int .from{
+    text-align: center;
+    width: 2em;
+    font: 0.8em  Verdana;
+}
+
+.int .symbo{
+    font: 200% Georgia;
+}
+.int .symbo::before{
+    content: "\222B";
+    margin-left: 6px;
+}
+.symbo1{
+    content: "\221A";
+    color:rgb(14, 13, 13);
+}
+.rootClass{
+    font-size:150%; 
+    color:rgb(12, 10, 10);
+}
+.rootClass1{
+    margin-left: -8px;
+     border-top: 1px solid #000000;
+} 
+.symbo{
+    display: inline-block;
+    font-size: 200%;
+    font-family: Georgia;
+}
+.symbo::before{
+    content: "\222b";
+}
+
+
+
