@@ -14,27 +14,34 @@
                 .container{
        padding: 10px;
                     text-align: center;
+                    border:1px solid;
   }    
+  .row{
+      margin-left: 15px;
+  }
  
         </style>
 </head> 
 <body>
     <h1 class="h1"> Integral Calculus</h1> 
     <div class="container">
-        <div class="col-xs-12">
-       <h5 style="color: red;">Cartesian equation of the form <strong style="color: black;">y=f(x):</strong> </h5>
-            <div class="int">
-               <p class="to">b</p>
-                <div class="symbo"> </div>
-                <div class="from">a</div>
-            </div>
-           <span class="rootClass">&#8730;</span>    
-           <span class="rootClass1">1+(f '(x))<sup>2</sup> 
-           </span>    dx
-  </div>
-    </div>
+        <h3>To determine Arc length of curve</h3>
+        <div class="row">
+            <div class="col-xs-12">
+           <h5 style="color: red;">Cartesian equation of the form <strong style="color: black;">y=f(x):</strong> </h5>
+                <div class="int">
+                   <p class="to">b</p>
+                    <div class="symbo"> </div>
+                    <div class="from">a</div>
+                </div>
+               <span class="rootClass">&#8730;</span>    
+               <span class="rootClass1">1+(f '(x))<sup>2</sup> 
+               </span>    dx
+      </div>
+        </div>
 <hr>
-  <div class="container" >
+  
+  <div class="row" >
    <div class="col-xs-12">
 
        <h5 style="color: red;">Parametric equation of the form <strong style="color: black;">x=x(t),y=y(t):</strong> </h5>
@@ -52,7 +59,7 @@
    </div>
   </div>
   <hr>
-  <div class="container">
+  <div class="row">
    <div class="col-xs-12">
 
        <h5 style="color: red;">Polar equation of the form <strong style="color: black;">r=f(&Theta;):</strong> </h5>
@@ -61,7 +68,7 @@
                 <div class="symbo">
                   
                 </div>
-                <div class="from">&Theta;<sub>2</sub></div>
+                <div class="from">&Theta;<sub>1</sub></div>
                 </div>
             <span class="rootClass">&#8730;</span>    
             <span class="rootClass1">r<sup>2</sup> + (dr/d&theta;)<sup>2</sup> 
@@ -69,7 +76,7 @@
 
    </div>
   </div> <hr>
-  <div class="container" >
+  <div class="row" >
    <div class="col-xs-12">
 
        <h5 style="color: red;">Polar equation of the form <strong style="color: black;">r=f(&Theta;):</strong> </h5>
@@ -87,8 +94,11 @@
    </div>
   </div>
   <hr>
- 
-<div class="container">
+    </div>
+    <br>
+    <div class="container">
+        <h3>Reduction Formula</h3>
+    <div class="row">
         <div  class="col-xs-12 " >
             <div  class="symbo"> 
                 <h5 style="display: inline;"> <span>sin <sup>n</sup>(x) dx =</span>  </h5>
@@ -96,10 +106,9 @@
        <span class="integ1">-1/n * sin<sup>n-1</sup>(x) cos(x)  +  (n-1)/n </span>
           <div class="symbo"></div>sin <sup>n-2</sup>(x) dx   </span>
         </div>
-
     </div>
  <hr>
-<div class="container" >
+<div class="row" >
         <div  class="col-xs-12 " >
             <div  class="symbo"> 
                 <h5 style="display: inline;"> <span>cos <sup>n</sup>(x) dx =</span>  </h5>
@@ -110,7 +119,7 @@
 
     </div>
     <hr>
-<div class="container" >
+<div class="row" >
         <div  class="col-xs-12 " >
             <div  class="symbo"> 
                 <h5 style="display: inline;"> <span>tan <sup>n</sup>(x) dx =</span>  </h5>
@@ -121,7 +130,7 @@
 
     </div>
     <hr>
-<div class="container" >
+<div class="row" >
         <div  class="col-xs-12 " >
             <div  class="symbo"> 
                 <h5 style="display: inline;"> <span>sec <sup>n</sup>(x) dx =</span>  </h5>
@@ -132,7 +141,7 @@
 
     </div>
     <hr>
-<div class="container">
+<div class="row">
         <div  class="col-xs-12 " >
             <div  class="symbo"> 
                 <h5 style="display: inline;"> <span>cosec <sup>n</sup>(x) dx =</span>  </h5>
@@ -143,11 +152,10 @@
 
     </div>
 
+</div>
 <br>
-
-
-
-
-
+<footer style="background-color: grey; text-align: center;padding: 20px; font-size: 20px;">
+    <h5>Proudly created by Sushank and UnknownBalak</h5>
+</footer>
 </body>
 </html>
