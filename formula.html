@@ -6,10 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <style>
-              .h1{
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+ <style>
+              .h1,h3,h4{
                   text-align: center;
                margin-bottom: 20px;
+               font-family: 'Lobster', cursive;
                 }  
                 .container{
        padding: 10px;
@@ -19,6 +21,10 @@
   .row{
       margin:10px;
   }
+  h6{
+      text-align: left;
+     
+    }
  
         </style>
 </head> 
@@ -155,8 +161,189 @@
     
     </div>
 
+ <div class="container">
+     <h1 class="h1">Multiple Integral</h1>
+      <h4>Surface area of revolution</h4>
+        <h5 style="color: rgb(36, 196, 188);">Revolving about the x-axis</h5>
+   
+     <div class="row">
+        <div class="col-xs-12">
+        <h6>1) If the curve <strong style="color: rgb(173, 11, 248);"> y=f(x), a  <span class="equal"><</span>      x <span class="equal"><</span> b </strong> is rotated about the 
+            x-axis, then the Surface area of the revolution is given by, 
+          </h6>       
+            <h4 style="display: inline-block; align-self: left;">A =</h4>
+            <span>2&pi;</span>
+            <div  class="multiint">
+               <p class="to">b</p>
+                <div class="symbo"> </div>
+                <div class="from">a</div>
+            </div>
+            <span  style="margin-left: -2%;">f(x)</span>
+           <span  class="rootClass">&#8730;</span>    
+           <span class="rootClass1">1+[ f '(x) ]<sup>2</sup> 
+           </span>    dx
+    </div>
 
-     </div>
+
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+    <h6>2) If the curve <strong style="color: rgb(173, 11, 248);"> x=g(y), c <span class="equal"><</span> y <span class="equal"><</span>  d </strong> is rotated about the 
+        x-axis, then the Surface area of the revolution is given by, 
+      </h6>       
+        <h4 style="display: inline-block; align-self: left;">A =</h4>
+        <span>2&pi;</span>
+        <div  class="multiint">
+           <p class="to">d</p>
+            <div class="symbo"> </div>
+            <div class="from">c</div>
+        </div>
+        <span  style="margin-left: -2%;">y</span>
+       <span  class="rootClass">&#8730;</span>    
+       <span class="rootClass1">1+[ g'(y) ]<sup>2</sup> 
+       </span>    dy
+</div>
+
+
+</div>
+  <div class="row">
+    <div class="col-xs-12">
+    <h6>3) If the curve <strong style="color: rgb(173, 11, 248);"> x=x(t), y=y(t)</strong>, with t ranging over some
+        interval <strong style="color: rgb(173, 11, 248);">[&alpha; , &Beta;]</strong>, 
+     is rotated about x-axis, then the Surface area of the revolution is given by, 
+     <div> <em>(<strong style="color: red;">Note:</strong> x)(t); is never negative)</em>  </div>
+    
+      </h6>   
+          
+        <h4 style="display: inline-block; align-self: left;">A =</h4>
+        <span>2&pi;</span>
+        <div  class="multiint">
+           <p class="to">&beta;</p>
+            <div class="symbo"> </div>
+            <div class="from">&alpha;</div>
+        </div>
+        <span  style="margin-left: -2%;">y(t)</span>
+       <span  class="rootClass">&#8730;</span>    
+       <span class="rootClass1">x'(t)<sup>2</sup> + y'(t)<sup>2</sup> 
+       </span>    dt
+</div>
+
+
+</div>
+  <div class="row">
+    <div class="col-xs-12">
+    <h6>4) If the curve <strong style="color: rgb(173, 11, 248);"> r=r(&theta;), </strong> with &theta; ranging over some
+          intervl <strong style="color: rgb(173, 11, 248);">[&alpha;, &beta;]</strong> 
+           is rotated about the polar axis, then the Surface area of the revolution is given by, 
+           <div> <em>(<strong style="color: red;">Note:</strong> x=rcos&theta; is never negative)</em>  </div>
+      </h6>       
+        <h4 style="display: inline-block; align-self: left;">A =</h4>
+        <span>2&pi;</span>
+        <div  class="multiint">
+           <p class="to">&beta;</p>
+            <div class="symbo"> </div>
+            <div class="from">&alpha;</div>
+        </div>
+        <span  style="margin-left: -2%;">r(&theta;) sin&theta;</span>
+       <span  class="rootClass">&#8730;</span>    
+       <span class="rootClass1">r(&theta;)<sup>2</sup> + r'(&theta;)<sup>2</sup> 
+       </span>    d&theta;
+</div>
+
+
+</div>
+
+<br>
+<h5 style="color: rgb(36, 196, 188);">Revolving about the Y-axis</h5>
+
+<div class="row">
+    <div class="col-xs-12">
+    <h6>1) If the curve <strong style="color: rgb(173, 11, 248);"> y=f(x), a<=x<=b </strong> is rotated about the 
+        y-axis, then the Surface area of the revolution is given by, 
+      </h6>       
+        <h4 style="display: inline-block; align-self: left;">A =</h4>
+        <span>2&pi;</span>
+        <div  class="multiint">
+           <p class="to">b</p>
+            <div class="symbo"> </div>
+            <div class="from">a</div>
+        </div>
+        <span  style="margin-left: -2%;">x</span>
+       <span  class="rootClass">&#8730;</span>    
+       <span class="rootClass1">1+[( '(x) ]<sup>2</sup> 
+       </span>    dx
+</div>
+
+
+</div>
+<div class="row">
+    <div class="col-xs-12">
+    <h6>2) If the curve <strong style="color: rgb(173, 11, 248);"> x=g(y), c <span class="equal"><</span> y <span class="equal"><</span>  d </strong> is rotated about the 
+        y-axis, then the Surface area of the revolution is given by, 
+      </h6>       
+        <h4 style="display: inline-block; align-self: left;">A =</h4>
+        <span>2&pi;</span>
+        <div  class="multiint">
+           <p class="to">d</p>
+            <div class="symbo"> </div>
+            <div class="from">c</div>
+        </div>
+        <span  style="margin-left: -2%;">g(y)</span>
+       <span  class="rootClass">&#8730;</span>    
+       <span class="rootClass1">1+[ g'(y)]<sup>2</sup> 
+       </span>    dy
+</div>
+
+
+</div>
+<div class="row">
+    <div class="col-xs-12">
+    <h6>1) If the curve <strong style="color: rgb(173, 11, 248);"> x=x(t), y=y(t)</strong>, with t ranging over some
+        interval <strong style="color: rgb(173, 11, 248);">[&alpha; , &Beta;]</strong>, 
+     is rotated about y-axis, then the Surface area of the revolution is given by, 
+                  
+  <div>  <em>(<strong style="color: red;">Note:</strong> x(t) is never negative)</em> </div>
+    </h6>  
+  <h4 style="display: inline-block; align-self: left;">A =</h4>
+        <span>2&pi;</span>
+        <div  class="multiint">
+           <p class="to">&beta;</p>
+            <div class="symbo"> </div>
+            <div class="from">&alpha;</div>
+        </div>
+        <span  style="margin-left: -2%;">x(t)</span>
+       <span  class="rootClass">&#8730;</span>    
+       <span class="rootClass1">x'(t)<sup>2</sup> + y'(t)<sup>2</sup> 
+       </span>    dt
+</div>
+
+
+</div>
+<div class="row">
+    <div class="col-xs-12">
+    <h6>4) If the curve <strong style="color: rgb(173, 11, 248);"> r=r(&theta;), with </strong> &theta; ranging over some
+          intervl <strong style="color: rgb(173, 11, 248);">[&alpha;, &beta;]</strong> 
+           is rotated about the polar axis, then the Surface area of the revolution is given by, 
+     <div> <em>(<strong style="color: red;">Note:</strong> x=rcos&theta; is never negative)</em>  </div>
+        </h6>
+      <h4 style="display: inline-block; align-self: left;">A =</h4>
+        <span>2&pi;</span>
+        <div  class="multiint">
+           <p class="to">d</p>
+            <div class="symbo"> </div>
+            <div class="from">c</div>
+        </div>
+        <span  style="margin-left: -2%;">r(&theta;) cos(&theta;)</span>
+       <span  class="rootClass">&#8730;</span>    
+       <span class="rootClass1">r(&theta;)<sup>2</sup> + r'(&theta;)<sup>2</sup> 
+       </span>    d&theta;
+</div>
+
+
+</div>
+ </div>
+
+        </div>
 <br>
 <!-- <footer style="background-color: grey; text-align: center;padding: 20px; font-size: 20px;">
     <h5>Proudly created by Sushank and UnknownBalak</h5>
