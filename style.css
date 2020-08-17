@@ -42,7 +42,7 @@ a{
     color:rgb(12, 10, 10);
 }
 .rootClass1{
-    margin-left: -2%;
+    margin-left: -6px;
     /* margin-top: -8px; */
 
      border-top: 1.4px solid #000000;
@@ -68,11 +68,12 @@ a{
     margin: 0 0 -5px 15%;
 }
 .multiint .from{
-  transform: translateX(-17%) translateY(-34%);
+  transform: translateX(-17px) translateY(-34%);
 }
 .equal{
       font-size: 18px; 
       border-bottom: 1px solid;
+      padding-bottom: -20px;
       font-weight: bolder;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     
