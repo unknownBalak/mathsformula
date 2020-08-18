@@ -3,7 +3,7 @@
 }
 body{
     margin: auto;
-    font-family: 'Architects Daughter', cursive;    
+    /* font-family: 'Architects Daughter', cursive;     */
 }
 a{
   text-decoration: none;
@@ -42,7 +42,7 @@ a{
     color:rgb(12, 10, 10);
 }
 .rootClass1{
-    margin-left: -6px;
+    margin-left: -8px;
     /* margin-top: -8px; */
 
      border-top: 1.4px solid #000000;
